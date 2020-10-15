@@ -1,0 +1,101 @@
+/* Styling Sheet: */
+
+/* App Component Styling: */
+.App {
+  background-color: grey;
+  padding: 50px;
+  text-align: center; 
+}
+
+.App-header {
+  align-items: center;
+  background-color: #282c34;
+  color: rgb(48, 101, 136);
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+/* Animation added to company logo: */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* About Component Styling: */
+
+.About-heading {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+  text-decoration: underline dotted;
+}
+
+.About-text {
+  font-size: 20px;
+  padding: 30px;
+  text-align: justify;
+}
+
+ul {
+  background-color: grey;
+  list-style: none;
+}
+
+/* Services Component Styling: */
+
+.Services-div {
+  margin-top: 100px;
+}
+
+.Services-heading {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline dotted;
+}
+
+.Service-images {
+  border-radius: 50%;
+  height: 200px;
+  padding: 30px;
+  width: 300px;
+}
+
+.Services-text {
+  font-size: 20px;
+  padding: 30px;
+  text-align: justify;
+}
+
+.signIn-Button {
+  background-color: rgb(16, 178, 218);
+  border-radius: 5px;
+  border: 2px solid black;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+}
+
+.signIn-Button:hover {
+  background-color: crimson;
+}
+
+/************************************** THE END *****************************************/
